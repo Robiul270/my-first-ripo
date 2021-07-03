@@ -3,7 +3,10 @@ body{
     margin: 0;
 }
 section{
-    display: flex;
+    display: flex; 
+    /* margin-bottom: 100px; */
+}
+.top-banner{
     background-image: url(images/unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -16,6 +19,9 @@ section{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
     color: orange;
 }
@@ -27,12 +33,25 @@ h1{
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+   
 }
-.right{
+
+.right-side{
     width: 50%;
 }
-.right img{
+.right-side img{
     width: 50%;
-    border-radius: 10%;
-    margin-left: 25%;
+    border-radius: 5%;
+    margin-left: 15%;
+}
+.dream{
+    background-image: url(images/unsplash.jpg);
+}
+.container{
+    margin-top: 10%;
+    display: flex;
+}
+.left-side img{
+    width: 70%;
+    border-radius: 5%;
 }
